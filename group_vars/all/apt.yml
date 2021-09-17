@@ -1,11 +1,11 @@
 ---
-## Deploy Apt source custom template
+##  Deploy Apt source custom template
 apt_update_source_list         : "template"
 
-## use netherland mirror
+##  use netherland mirror
 apt_update_source_list_mirror  : "http://us.archive.ubuntu.com/ubuntu/"
 
-## Install unattended package
+##  Install unattended package
 unattended_install             : True
 
 apt_default_packages           :
