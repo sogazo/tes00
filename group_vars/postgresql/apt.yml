@@ -1,12 +1,12 @@
 ---
 
-apt_default_key_urls      :
+apt_default_key_urls        :
     - "https://www.postgresql.org/media/keys/ACCC4CF8.asc"
 
-apt_default_repositories  :
+apt_default_repositories    :
     - "deb http://apt.postgresql.org/pub/repos/apt/ trusty-pgdg main"
 
-apt_default_packages      :
+apt_default_packages        :
     - "git-all"
     - "unzip"
     - "nfs-kernel-server"
